@@ -7,7 +7,7 @@ Bu proje, topraksız tarım yapılan bir ortamda görüntü işleme ve IoT tekno
 ---
 
 ## Şu Ana Kadar Yapılanların Özeti  
-Proje, Rockchip tabanlı gömülü bir sistem, bir adet yüksek çözünürlüklü kamera ve ilerleyen aşamalarda entegre edilecek çeşitli sensörler ile çalışmaktadır. Görüntü işleme tarafında, YOLOv8s nesne tanıma modeli kullanılmış ve Rockchip’in yerleşik NPU biriminden faydalanmak üzere **RKNN Toolkit** ile optimize edilmiştir. Kamera görüntüsü gerçek zamanlı olarak GStreamer ve WebRTC teknolojileriyle tarayıcıya aktarılmakta, böylece uzaktan canlı izleme sağlanmaktadır.
+Şu anda projede Rockchip tabanlı gömülü bir sistem, bir adet yüksek çözünürlüklü kamera ve ilerleyen aşamalarda entegre edilecek çeşitli sensörler ile bir yapı kurulmuştur. Görüntü işleme tarafında, YOLOv8s nesne tanıma modeli kullanılmış ve Rockchip’in yerleşik NPU biriminden faydalanmak üzere **RKNN Toolkit** ile optimize edilmiştir. Kamera görüntüsü gerçek zamanlı olarak GStreamer ve WebRTC teknolojileriyle tarayıcıya aktarılmakta, böylece uzaktan canlı izleme sağlanmaktadır. İlerleyen aşamalarda kullanıcı etkileşimli bir backend tasarımına gidilecek ve sensörlerden elde edilen veriler ile makine öğrenmesi analizi yapılıp bitki hakkında tam bilgi sahibi olunacaktır. Başta da belirtildiği üzere canlı görüntü aktarımı ve belirli zamanlarda görüntü alımı yapılarak inference adımı gerçekleştirilmiştir.
 
 ---
 
@@ -51,11 +51,16 @@ Proje, Rockchip tabanlı gömülü bir sistem, bir adet yüksek çözünürlükl
 
 ### Sistem Durumu  
 - 📸 Kamera → ✅ Kuruldu ve video alımı sağlandı  
-- 📡 GStreamer → ✅ Çalışıyor, RTSP/UDP aktarım test edildi  
+- 📡 GStreamer → ✅ Çalışıyor, h264 sıkıştırma ile gecikmesiz aktarım test edildi  
 - 🌐 WebRTC → ✅ Tarayıcıya canlı video aktarımı yapıldı  
 - 🤖 YOLOv8s → ✅ RKNN modeline dönüştürüldü  
+<<<<<<< HEAD
 - ⚙️ NPU → ✅ Model inference işlemleri başarılı  
 - 🌿 Sensörler → ⏳ Henüz entegrasyon yapılmadı
+=======
+- ⚙️ NPU → ✅ Model inference işlemleri başarılı, ilerleyen aşamalarda **marul** bitkisinden alınan görseller ile hastalık tespiti yapılacaktır.  
+- 🌿 Sensörler → ⏳ Donanımsal entegrasyon tamam, yazılımsal entegrasyon yapılmadı  
+>>>>>>> 4fd1b9903c866db50c9b7808d2d7e2ecf18ff1d2
 
 ---
 
@@ -64,7 +69,7 @@ Proje, Rockchip tabanlı gömülü bir sistem, bir adet yüksek çözünürlükl
   YOLOv8s modeli ONNX formatına başarıyla çevrilmiş olsa da, RKNN formatına dönüşümde bazı tensor uyumsuzlukları oluşmuştur. RKNN Toolkit versiyonu güncellenerek ve model küçük revizyonlarla yeniden eğitilerek bu sorun aşılmıştır.
 
 - **GStreamer Kurulumu ve Format Uyumsuzlukları**  
-  GStreamer pipeline'ı oluşturulurken kamera sürücüsü uyumu ve video formatı kaynaklı çeşitli hatalar alınmıştır. `v4l2src` ile doğru format parametreleri verilerek bu sorunlar giderilmiştir. Aynı zamanda gerekli optimizasyonlar yapılarak yayın gecikmesi minimuma çekilmiştir.
+  GStreamer pipeline'ı oluşturulurken kamera sürücüsü uyumu ve video formatı kaynaklı çeşitli hatalar alınmıştır. `v4l2src` ile doğru format parametreleri verilerek bu sorunlar giderilmiştir. Aynı zamanda pipe'da gerekli optimizasyonlar yapılarak yayın gecikmesi minimuma çekilmiştir.
 
 ---
 
