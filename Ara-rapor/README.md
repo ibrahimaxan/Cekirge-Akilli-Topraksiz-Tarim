@@ -6,7 +6,7 @@ Bu proje, topraksız tarım yapılan bir ortamda görüntü işleme ve IoT tekno
 
 ---
 
-## Özet  
+## Şu Ana Kadar Yapılanların Özeti  
 Proje, Rockchip tabanlı gömülü bir sistem, bir adet yüksek çözünürlüklü kamera ve ilerleyen aşamalarda entegre edilecek çeşitli sensörler ile çalışmaktadır. Görüntü işleme tarafında, YOLOv8s nesne tanıma modeli kullanılmış ve Rockchip’in yerleşik NPU biriminden faydalanmak üzere **RKNN Toolkit** ile optimize edilmiştir. Kamera görüntüsü gerçek zamanlı olarak GStreamer ve WebRTC teknolojileriyle tarayıcıya aktarılmakta, böylece uzaktan canlı izleme sağlanmaktadır.
 
 ---
