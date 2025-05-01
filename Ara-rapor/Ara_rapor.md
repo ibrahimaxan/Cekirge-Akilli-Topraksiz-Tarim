@@ -2,7 +2,7 @@
 **ARA RAPOR**
 
 ## Proje Konusu
-Bu proje, topraksız tarım yapılan bir ortamda görüntü işleme ve IoT teknolojilerini bir araya getirerek bitki sağlığını takip eden ve uzaktan izlenebilir bir sistem geliştirmeyi amaçlamaktadır. Sistem, kamera görüntülerini analiz ederek bitki üzerindeki anormallikleri (sararma, solma vb.) tespit ederken; çevresel sensörler ile sıcaklık, nem gibi faktörleri takip etmeyi hedefler. Böylece üreticilere erken müdahale imkânı sunulacaktır.
+Bu proje, topraksız tarım yapılan bir ortamda görüntü işleme ve IoT teknolojilerini bir araya getirerek bitki sağlığını takip eden ve uzaktan izlenebilir bir sistem geliştirmeyi amaçlamaktadır. Sistem, kamera görüntülerini analiz ederek bitki üzerindeki anormallikleri (sararma, solma vb.) tespit ederken; çevresel sensörler ile sıcaklık, nem gibi faktörleri takip etmeyi hedefler. Elde edilen bu sensör verileri makine öğrenmesi modelleri ile analiz edilerek de bitkinin sağlığı kontrol altında tutulmakla beraber; üreticilere de erken müdahale imkânı sunar.
 
 ---
 
