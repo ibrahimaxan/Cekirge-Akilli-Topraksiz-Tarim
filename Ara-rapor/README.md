@@ -47,7 +47,7 @@ Bu proje, topraksız tarım yapılan bir ortamda görüntü işleme ve IoT tekno
 - Web tabanlı istemci test ortamı başarıyla çalışmaktadır.
 
 🌐 **Web'de Görüntüleme Örneği**  
-![Web'de Görüntüleme](./figures/webde_goruntuleme.jpg)
+![Web'de Görüntüleme](./figures/webde_goruntuleme.png)
 
 ### Sistem Durumu  
 - 📸 Kamera → ✅ Kuruldu ve video alımı sağlandı  
@@ -61,7 +61,7 @@ Bu proje, topraksız tarım yapılan bir ortamda görüntü işleme ve IoT tekno
 ---
 
 **Kurulu Sistem Görüntüsü**
-![Sistem Goruntusu](./figures/rockchip_sistem.png)
+![Sistem Goruntusu](./figures/rockchip_sistem.jpg)
 
 ---
 
