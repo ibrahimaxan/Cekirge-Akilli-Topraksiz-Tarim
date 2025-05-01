@@ -55,7 +55,7 @@ Proje, Rockchip tabanlı gömülü bir sistem, bir adet yüksek çözünürlükl
 - 🌐 WebRTC → ✅ Tarayıcıya canlı video aktarımı yapıldı  
 - 🤖 YOLOv8s → ✅ RKNN modeline dönüştürüldü  
 - ⚙️ NPU → ✅ Model inference işlemleri başarılı  
-- 🌿 Sensörler → ⏳ Henüz entegrasyon yapılmadı  
+- 🌿 Sensörler → ⏳ Henüz entegrasyon yapılmadı
 
 ---
 
