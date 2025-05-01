@@ -38,10 +38,16 @@ Proje, Rockchip tabanlı gömülü bir sistem, bir adet yüksek çözünürlükl
 - Modelin inference işlemi Python üzerinden test edildi, örnek görüntüler üzerinde başarılı sonuçlar alındı.  
 - Gerçek zamanlı video akışına entegre etme süreci halen devam etmektedir.
 
+📷 **NPU Kullanımı Görseli**  
+![NPU Kullanımı](./figures/npu_kullanimi.png)
+
 ### Video Yayını  
 - USB kamera görüntüsü GStreamer ile alınarak sıkıştırılmış biçimde yayınlandı.  
 - WebRTC üzerinden tarayıcıya canlı aktarım sağlandı, gecikme minimize edildi.  
 - Web tabanlı istemci test ortamı başarıyla çalışmaktadır.
+
+🌐 **Web'de Görüntüleme Örneği**  
+![Web'de Görüntüleme](./figures/webde_goruntuleme.png)
 
 ### Sistem Durumu  
 - 📸 Kamera → ✅ Kuruldu ve video alımı sağlandı  
@@ -64,8 +70,6 @@ Proje, Rockchip tabanlı gömülü bir sistem, bir adet yüksek çözünürlükl
 
 ## Projenin Devamında Yapılacaklar  
 - YOLOv8s modelinin canlı video akışına entegre edilerek gerçek zamanlı bitki sağlığı tespiti yapılması  
-- Sensörlerin (sıcaklık, nem, pH) sisteme bağlanarak veri takibi ve eş zamanlı analiz  
+- Sensörlerin (sıcaklık, nem, pH, EC/Tds) sisteme bağlanarak veri takibi ve eş zamanlı analiz (makine öğrenmesi teknikleri ile)
 - Kullanıcı arayüzüne bitki sağlığına yönelik görsel uyarı ve durum raporları eklenmesi  
-- Model doğruluğunun artırılması için özel dataset ile yeniden eğitilmesi  
-- Maket sera ortamında saha testleri yapılması
-
+- Model doğruluğunun artırılması için özel dataset ile yeniden eğitilmesi
