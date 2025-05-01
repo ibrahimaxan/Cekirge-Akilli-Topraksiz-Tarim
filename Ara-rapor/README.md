@@ -61,8 +61,11 @@ Bu proje, topraksız tarım yapılan bir ortamda görüntü işleme ve IoT tekno
 - ⚙️ NPU → ✅ Model inference işlemleri başarılı, ilerleyen aşamalarda **marul** bitkisinden alınan görseller ile hastalık tespiti yapılacaktır.  
 - 🌿 Sensörler → ⏳ Donanımsal entegrasyon tamam, yazılımsal entegrasyon yapılmadı  
 >>>>>>> 4fd1b9903c866db50c9b7808d2d7e2ecf18ff1d2
-
 ---
+
+**Kurulu Sistem Görüntüsü**
+![Sistem Goruntusu](./figures/rockchip_sistem.png)
+
 
 ## Karşılaşılan Sorunlar ve Çözümler  
 - **Model Dönüştürme Uyumsuzlukları**  
